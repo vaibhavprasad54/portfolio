@@ -24,7 +24,7 @@ const About = () => {
 
           <div className="">
             <p className="font-semibold text-xl pb-5">Skills</p>
-            <div className="flex items-center justify-center space-x-8 border border-gray-400 py-12 mb-7 rounded-md shadow-lg">
+            <div className="flex items-center justify-center space-x-8 border overflow-x-auto border-gray-400 py-12 mb-7 rounded-md shadow-lg">
               <Image src="/../public/assets/skills/javascript.png" className="cursor-pointer" width={50} height={50} alt="" />
               <Image src="/../public/assets/skills/react.png" className="cursor-pointer" width={50} height={50} alt="" />
               <Image src="/../public/assets/skills/node.png" className="cursor-pointer" width={50} height={50} alt="" />
@@ -44,7 +44,7 @@ const About = () => {
           </a>
         </div>
         <div className="p-2 px-7 sm:px-2">
-          <img className="rounded-md hover:scale-105 ease-in duration-200"
+          <img className="rounded-md hover:scale-105 ease-in duration-200 sm:w-[435px] sm:h-[435px]"
             src="https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
             alt=""
           />
