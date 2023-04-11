@@ -24,7 +24,7 @@ const About = () => {
 
           <div className="">
             <p className="font-semibold text-xl pb-5">Skills</p>
-            <div className="flex items-center justify-center space-x-8 border overflow-x-auto border-gray-400 py-12 mb-7 rounded-md shadow-lg">
+            <div className="flex items-center justify-center space-x-8 border overflow-x-auto border-gray-400 py-12 mb-7 rounded-md shadow-lg scrollbar scrollbar-thin scrollbar-thumb-slate-500">
               <Image src="/../public/assets/skills/javascript.png" className="cursor-pointer" width={50} height={50} alt="" />
               <Image src="/../public/assets/skills/react.png" className="cursor-pointer" width={50} height={50} alt="" />
               <Image src="/../public/assets/skills/node.png" className="cursor-pointer" width={50} height={50} alt="" />
