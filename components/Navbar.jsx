@@ -3,7 +3,7 @@ import Link from "next/link"
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail, AiOutlineTwitter } from "react-icons/ai" 
 import { FaGithub, FaLinkedinIn } from "react-icons/fa" 
 import { BsFillPersonLinesFill } from "react-icons/bs" 
-import  logo from "../../portfolio-nextjs/public/assets/logo.svg"
+import  logo from "../public/assets/logo.svg"
 import { useEffect, useState } from "react"
 
 
