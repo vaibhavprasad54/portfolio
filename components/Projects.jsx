@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import notesy from "../public/assets/notesy2.png"
-import nextbuy from "../public/assets/NextBuy.png"
+import nextbuy from "../public/assets/nextbuy.png"
 import bingeme from "../public/assets/bingeme.png"
 import ProjectItem from "./ProjectItem";
 
