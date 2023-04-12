@@ -93,7 +93,7 @@ const About = () => {
             </div>
           </div>
 
-          <a href="/../public/assets/mojo.pdf" download>
+          <a href="/../public/assets/resumeVaibhav.pdf" download>
             <button className="p-3 text-base sm:text-lg px-4 flex items-center justify-center bg-blue-800 hover:bg-blue-900 rounded-[4px]">
               Resume
               <FaDownload className="ml-2" />
