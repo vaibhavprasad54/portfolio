@@ -7,6 +7,7 @@ import  logo from "../public/assets/logo.svg"
 import { useEffect, useState } from "react"
 
 
+
 const Navbar = () => {
 
     const [nav, setNav] = useState(false);
