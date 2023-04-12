@@ -96,7 +96,7 @@ const Contact = () => {
               </div>
 
               <div className="text-center px-10">
-                <p className="font-semibold text-xl text-white">Connect with me if you're searching for someone to build robust, fast and modern websites and web-apps!</p>
+                <p className="font-semibold text-lg sm:text-xl text-white">Connect with me if you're searching for someone to build robust, fast and modern websites and web-apps!</p>
               </div>
 
               <div className="flex items-center justify-center my-4 sm:my-0 space-x-5 w-full sm:h-40 sm:items-end">
