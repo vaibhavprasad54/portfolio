@@ -2,6 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaDownload } from "react-icons/fa";
+import javascript from "../public/assets/javascript.png"
+import react from "../public/assets/react.png" 
+import nextjs from "../public/assets/nextjs.png" 
+import github from "../public/assets/github1.png" 
+import firebase from "../public/assets/firebase.png" 
+import mongo from "../public/assets/mongo.png" 
+import node from "../public/assets/node.png" 
+import tailwind from "../public/assets/tailwind.png" 
 
 const About = () => {
   return (
@@ -27,56 +35,56 @@ const About = () => {
             <p className="font-semibold text-xl pb-5">Skills</p>
             <div className="flex items-center justify-center space-x-8 border overflow-x-auto border-gray-400 py-12 mb-7 rounded-md shadow-lg scrollbar scrollbar-thin scrollbar-thumb-slate-500">
               <Image
-                src="/../public/assets/skills/javascript.png"
+                src={javascript}
                 className="cursor-pointer"
                 width={50}
                 height={50}
                 alt=""
               />
               <Image
-                src="/../public/assets/skills/react.png"
+                src={react}
                 className="cursor-pointer"
                 width={50}
                 height={50}
                 alt=""
               />
               <Image
-                src="/../public/assets/skills/node.png"
+                src={nextjs}
                 className="cursor-pointer"
                 width={50}
                 height={50}
                 alt=""
               />
               <Image
-                src="/../public/assets/skills/mongo.png"
+                src={github}
                 className="cursor-pointer"
                 width={50}
                 height={50}
                 alt=""
               />
               <Image
-                src="/../public/assets/skills/firebase.png"
+                src={firebase}
                 className="cursor-pointer"
                 width={50}
                 height={50}
                 alt=""
               />
               <Image
-                src="/../public/assets/skills/nextjs.png"
+                src={mongo}
                 className="cursor-pointer"
                 width={50}
                 height={50}
                 alt=""
               />
               <Image
-                src="/../public/assets/skills/tailwind.png"
+                src={node}
                 className="cursor-pointer"
                 width={50}
                 height={50}
                 alt=""
               />
               <Image
-                src="/../public/assets/skills/github1.png"
+                src={tailwind}
                 className="cursor-pointer"
                 width={50}
                 height={50}
