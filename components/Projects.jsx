@@ -13,9 +13,9 @@ const Projects = () => {
         <h2 className="py-4">Projects</h2>
         <div className="grid md:grid-cols-2 gap-8 py-2">
           
-          <ProjectItem title='Notesy' desc='Full stack ( MERN )' backgroundImg={notesy} projectUrl="/notesy" />
-          <ProjectItem title='NextBuy' desc='NextJs, Tailwind, Firebase, Stripe' backgroundImg={nextbuy} projectUrl="/nextbuy" />
-          <ProjectItem title='BingeMe' desc='NextJs, TMDB API, Tailwind' backgroundImg={bingeme} projectUrl="/nextbuy" />
+          <ProjectItem title='Notesy' desc='Full stack ( MERN )' backgroundImg={notesy} projectUrl="https://viridian-woodpecker-boot.cyclic.app/login" />
+          <ProjectItem title='NextBuy' desc='NextJs, Tailwind, Firebase, Stripe' backgroundImg={nextbuy} projectUrl="https://next-buy.vercel.app/" />
+          <ProjectItem title='BingeMe' desc='NextJs, TMDB API, Tailwind' backgroundImg={bingeme} projectUrl="https://binge-me.vercel.app/" />
 
         </div>
       </div>

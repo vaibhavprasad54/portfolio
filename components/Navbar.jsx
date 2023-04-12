@@ -30,7 +30,9 @@ const Navbar = () => {
   return (
     <div className={shadow ? 'fixed w-full h-20 shadow-xl bg-slate-100 z-50' : 'fixed w-full h-20 bg-slate-100 z-50'}>
         <div className="flex justify-between items-center w-full h-full px-8 2xl:px-16">
-            <Image src={logo} alt="" width={180} height={50} className="w-36 sm:w-40 cursor-pointer" />
+            <Link href="/">
+                <Image src={logo} alt="" width={180} height={50} className="w-36 sm:w-40 cursor-pointer" />
+            </Link>
             <div>
             <ul className="hidden md:flex">
                 <Link href="/"> 

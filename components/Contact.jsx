@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { AiFillCheckCircle, AiFillCloseCircle, AiFillInstagram, AiOutlineInstagram, AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import emailjs from '@emailjs/browser';
+import Link from "next/link";
 
 const Contact = () => {
 
@@ -99,18 +100,26 @@ const Contact = () => {
               </div>
 
               <div className="flex items-center justify-center my-4 sm:my-0 space-x-5 w-full sm:h-40 sm:items-end">
-                        <div className="rounded-full bg-gray-100 p-2 sm:p-3 mt-2 cursor-pointer hover:text-blue-800 hover:scale-105 ease-in duration-200">
-                            <FaLinkedinIn className="text-base" />
-                        </div>
-                        <div className="rounded-full bg-gray-100 p-2 sm:p-3 mt-2 cursor-pointer hover:text-blue-500 hover:scale-105 ease-in duration-200">
-                            <FaTwitter className="text-base" />
-                        </div>
-                        <div className="rounded-full bg-gray-100 p-3 mt-2 cursor-pointer hover:text-pink-600 hover:scale-105 ease-in duration-200">
-                            <AiOutlineInstagram className="text-base" />
-                        </div>
-                        <div className="rounded-full bg-gray-100 p-2 sm:p-3 mt-2 cursor-pointer hover:text-black hover:scale-105 ease-in duration-200">
-                            <FaGithub className="text-base" />
-                        </div>
+                        <Link href="https://www.linkedin.com/in/vaibhav-prasad-495451166/">
+                          <div className="rounded-full bg-gray-100 p-2 sm:p-3 mt-2 cursor-pointer hover:text-blue-800 hover:scale-105 ease-in duration-200">
+                              <FaLinkedinIn className="text-base" />
+                          </div>
+                        </Link>
+                        <Link href="https://twitter.com/webdev_07">
+                          <div className="rounded-full bg-gray-100 p-2 sm:p-3 mt-2 cursor-pointer hover:text-blue-500 hover:scale-105 ease-in duration-200">
+                              <FaTwitter className="text-base" />
+                          </div>
+                        </Link>
+                        <Link href="https://www.instagram.com/vaybhav77/">
+                          <div className="rounded-full bg-gray-100 p-3 mt-2 cursor-pointer hover:text-pink-600 hover:scale-105 ease-in duration-200">
+                              <AiOutlineInstagram className="text-base" />
+                          </div>
+                        </Link>
+                        <Link href="https://github.com/vaibhavprasad54">
+                          <div className="rounded-full bg-gray-100 p-2 sm:p-3 mt-2 cursor-pointer hover:text-black hover:scale-105 ease-in duration-200">
+                              <FaGithub className="text-base" />
+                          </div>
+                        </Link>
                     </div>
 
             </div>
