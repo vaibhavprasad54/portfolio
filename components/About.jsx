@@ -96,7 +96,7 @@ const About = () => {
             </div>
           </div>
 
-          <Link href="../assets/resumeVaibhav.pdf" locale={false}>
+          <Link href="../assets/vaibhavResume.pdf" locale={false}>
             <button
               className="p-3 text-base sm:text-lg px-4 flex items-center justify-center bg-blue-800 hover:bg-blue-900 rounded-[4px]">
               Resume
