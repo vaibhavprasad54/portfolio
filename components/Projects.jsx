@@ -4,7 +4,7 @@ import Link from "next/link";
 import notesy from "../public/assets/notesyNew.png"
 import nextbuy from "../public/assets/nextBuyNew.png"
 import bingeme from "../public/assets/bingeMeNew.png"
-import payday from "../public/assets/payDayNew.png"
+import payday from "../public/assets/paydayNew.png"
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
