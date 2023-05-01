@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import notesy from "../public/assets/notesy2.png"
-import nextbuy from "../public/assets/nextbuy.png"
-import bingeme from "../public/assets/bingeme.png"
-import payday from "../public/assets/payday-mock.png"
+import notesy from "../public/assets/notesyNew.png"
+import nextbuy from "../public/assets/nextBuyNew.png"
+import bingeme from "../public/assets/bingeMeNew.png"
+import payday from "../public/assets/payDayNew.png"
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -17,7 +17,7 @@ const Projects = () => {
           <ProjectItem title='Notesy' desc='Full stack ( MERN )' backgroundImg={notesy} projectUrl="https://viridian-woodpecker-boot.cyclic.app/login" />
           <ProjectItem title='NextBuy' desc='NextJs, Tailwind, Firebase, Stripe' backgroundImg={nextbuy} projectUrl="https://next-buy.vercel.app/" />
           <ProjectItem title='BingeMe' desc='NextJs, TMDB API, Tailwind' backgroundImg={bingeme} projectUrl="https://binge-me.vercel.app/" />
-          {/* <ProjectItem title='Payday' desc='Next.js | Tailwind' backgroundImg={payday} projectUrl="https://payday-design.vercel.app/" /> */}
+          <ProjectItem title='Payday' desc='Next.js | Tailwind' backgroundImg={payday} projectUrl="https://payday-design.vercel.app/" />
 
         </div>
       </div>
