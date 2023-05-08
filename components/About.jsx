@@ -15,7 +15,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full md:h-screen p-2 flex items-center py-16 sm:px-10"
+      className="w-full md:h-screen p-2 flex items-center py-5 sm:py-16 sm:px-10"
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2 p-7 sm:p-2">
@@ -96,7 +96,7 @@ const About = () => {
             </div>
           </div>
 
-          <Link href="../assets/vaibhavResume.pdf" locale={false}>
+          <Link href="../assets/Vaibhav-Resume-Frontend.pdf" locale={false}>
             <button
               className="p-3 text-base sm:text-lg px-4 flex items-center justify-center bg-blue-800 hover:bg-blue-900 rounded-[4px]">
               Resume

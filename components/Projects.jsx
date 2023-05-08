@@ -10,7 +10,7 @@ import ProjectItem from "./ProjectItem";
 const Projects = () => {
   return (
     <div id="projects" className="w-full">
-      <div className="max-w-[1240px] mx-auto px-7 sm:px-2 py-16">
+      <div className="max-w-[1240px] mx-auto px-7 sm:px-2 py-5 sm:py-16">
         <h2 className="py-4">Projects</h2>
         <div className="grid md:grid-cols-2 gap-8 py-2">
           

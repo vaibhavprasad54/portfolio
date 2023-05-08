@@ -85,49 +85,20 @@ const Contact = () => {
 
   return (
     <div id="contact" className="w-full">
-      <div className="max-w-[1220px] m-auto px-7 sm:px-2 py-16 w-full">
-        <h2>Contact Me!</h2>
+      <div className="max-w-7xl m-auto px-4 sm:px-2 py-5 pb-5 sm:py-16 w-full">
+        <div className="flex container items-end justify-start mb-2 mx-auto px-2">
+          <h2>Contact Me!</h2>
+          <div className="flex items-end justify-center w-28 sm:w-40 sm:-ml-5 -mb-[20px] sm:-mb-1 h-[6rem]">
+                <Lottie options={defaultOptions} />
+          </div>
+        </div>
 
-        <div class="container mx-auto pt-5">
-          <div class="lg:flex">
-            <div class="xl:w-2/5 lg:w-2/5 bg-blue-400 py-5 sm:py-14 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none p-2">
-              <div className="flex items-center justify-center sm:w-72 sm:ml-20">
-               <Lottie options={defaultOptions} />
-              </div>
-
-              <div className="text-center px-10">
-                <p className="font-semibold text-lg sm:text-xl text-white">Connect with me if you're searching for someone to build robust, fast and modern websites and web-apps!</p>
-              </div>
-
-              <div className="flex items-center justify-center my-4 sm:my-0 space-x-5 w-full sm:h-40 sm:items-end">
-                        <Link href="https://www.linkedin.com/in/vaibhav-prasad-495451166/">
-                          <div className="rounded-full bg-gray-100 p-2 sm:p-3 mt-2 cursor-pointer hover:text-blue-800 hover:scale-105 ease-in duration-200">
-                              <FaLinkedinIn className="text-base" />
-                          </div>
-                        </Link>
-                        <Link href="https://twitter.com/webdev_07">
-                          <div className="rounded-full bg-gray-100 p-2 sm:p-3 mt-2 cursor-pointer hover:text-blue-500 hover:scale-105 ease-in duration-200">
-                              <FaTwitter className="text-base" />
-                          </div>
-                        </Link>
-                        <Link href="https://www.instagram.com/vaybhav77/">
-                          <div className="rounded-full bg-gray-100 p-3 mt-2 cursor-pointer hover:text-pink-600 hover:scale-105 ease-in duration-200">
-                              <AiOutlineInstagram className="text-base" />
-                          </div>
-                        </Link>
-                        <Link href="https://github.com/vaibhavprasad54">
-                          <div className="rounded-full bg-gray-100 p-2 sm:p-3 mt-2 cursor-pointer hover:text-black hover:scale-105 ease-in duration-200">
-                              <FaGithub className="text-base" />
-                          </div>
-                        </Link>
-                    </div>
-
-            </div>
-            <div class="xl:w-3/5 lg:w-3/5 bg-gray-200 h-full xl:pr-5 xl:pl-0 rounded-tr rounded-br">
+        <div class="container flex items-center justify-center mx-auto pt-5">
+            <div class=" w-full px-2 h-full xl:pr-5 xl:pl-0 rounded-lg">
               <form
                 ref={form} onSubmit={sendEmail}
                 id="contact"
-                class="bg-white dark:bg-gray-800 py-4 px-6 sm:px-12 rounded-tr rounded-br"
+                class="bg-white dark:bg-gray-800 py-4 px-6 sm:px-12 rounded-lg"
               >
                 <h1 class="text-2xl sm:text-4xl text-gray-800 mt-4 sm:mt-5 dark:text-white font-extrabold mb-2 sm:mb-6">
                   Get in touch!
@@ -207,10 +178,9 @@ const Contact = () => {
               </form>
 
               {Object.keys(formErrors).length === 0 && isSubmit ?
-               (<div className='bg-green-400 pl-12 font-light text-base text-black px-2 py-2 rounded-[4px]'> <h4 className="flex items-center">Thank you for contacting me, I have recieved your mail and will reply ASAP! <AiFillCheckCircle className="ml-2" /> </h4> </div>)
-                : (<div className='hidden bg-red-400 pl-12 font-light text-base text-black px-2 py-2 rounded-[4px]'> <h4 className="flex items-center">Mail not sent, check input fields and try again! <AiFillCloseCircle className="ml-2" /> </h4> </div>)}
+               (<div className='bg-green-600 mt-1 pl-12 font-light text-base text-gray-800 px-2 py-2 rounded-[4px]'> <h4 className="flex items-center">Thank you for contacting me, I have recieved your mail and will reply ASAP! <AiFillCheckCircle className="ml-2" /> </h4> </div>)
+                : (<div className='hidden bg-red-400 mt-1 pl-12 font-light text-base text-gray-800 px-2 py-2 rounded-[4px]'> <h4 className="flex items-center">Mail not sent, check input fields and try again! <AiFillCloseCircle className="ml-2" /> </h4> </div>)}
             </div>
-          </div>
         </div>
       </div>
     </div>

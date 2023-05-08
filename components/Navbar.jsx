@@ -27,6 +27,7 @@ const Navbar = () => {
     const handleNav = () => {
         setNav(!nav);
     }
+    
 
   return (
     <div className={shadow ? 'fixed w-full h-20 shadow-xl bg-slate-100 z-50' : 'fixed w-full h-20 bg-slate-100 z-50'}>
@@ -71,10 +72,10 @@ const Navbar = () => {
             </div>
             <div className="py-4 flex flex-col">
                 <ul className="uppercase">
-                    <Link href="/"> <li className="py-3 font-medium text-sm"> Home </li> </Link>
-                    <Link href="/#about"> <li className="py-3 font-medium text-sm"> About </li> </Link>
-                    <Link href="/#projects"> <li className="py-3 font-medium text-sm"> Project </li> </Link>
-                    <Link href="/#contact"> <li className="py-3 font-medium text-sm"> Contact </li> </Link>
+                    <Link href="/"> <li onClick={handleNav} className="py-3 font-medium text-sm"> Home </li> </Link>
+                    <Link href="/#about"> <li onClick={handleNav} className="py-3 font-medium text-sm"> About </li> </Link>
+                    <Link href="/#projects"> <li onClick={handleNav} className="py-3 font-medium text-sm"> Project </li> </Link>
+                    <Link href="/#contact"> <li onClick={handleNav} className="py-3 font-medium text-sm"> Contact </li> </Link>
                 </ul>
 
                 <div className="pt-40">

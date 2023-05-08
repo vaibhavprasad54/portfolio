@@ -7,7 +7,7 @@ import Link from "next/link";
 const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center z-10">
-      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+      <div className="max-w-[1240px] w-full h-full mx-auto p-2 pt-20 sm:pt-16 md:pt-20 flex justify-center items-center">
         <div className="flex flex-col items-center justify-center pt-14 sm:pt-16">
           <Image
             className="w-28 sm:w-36 py-5 drop-shadow-2xl"
